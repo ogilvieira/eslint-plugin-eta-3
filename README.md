@@ -7,7 +7,9 @@
 
 </span>
 
-> Lint your embeddable Eta templates with ease
+> Lint your embeddable Eta v3 templates with ease
+
+Based on [eslint-plugin-eta](https://github.com/eta-dev/eslint-plugin-eta) 
 
 
 
