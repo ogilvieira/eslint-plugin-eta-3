@@ -1,16 +1,8 @@
 # eslint-plugin-eta-3
 
-<span align="center">
-
-[![Travis](https://img.shields.io/travis/com/ogilvieira/eslint-plugin-eta-3/master.svg)](https://travis-ci.com/eta-dev/eslint-plugin-eta)
-[![Coveralls](https://img.shields.io/coveralls/ogilvieira/eslint-plugin-eta-3.svg)](https://coveralls.io/github/eta-dev/eslint-plugin-eta)
-
-</span>
-
 > Lint your embeddable Eta v3 templates with ease
 
 Based on [eslint-plugin-eta](https://github.com/eta-dev/eslint-plugin-eta) 
-
 
 
 ### Installation
@@ -22,12 +14,12 @@ Add this to your ESLint config:
 module.exports = {
     ...
     plugins: [
-        "eta"
+        "eta-3"
     ],
     overrides: [
         {
             files: ["*.eta"],
-            processor: "eta/eta"
+            processor: "eta-3/eta"
         }
     ],
     ...
